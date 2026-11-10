@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>adidas clone | Home</title>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <svg width="0" height="0" style="position:absolute">
+        <symbol id="arrow" viewBox="0 0 40 12">
+            <path d="M0 6h38M33 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.3" />
+        </symbol>
+        <symbol id="chev" viewBox="0 0 20 12">
+            <path d="M1 1l9 9 9-9" fill="none" stroke="currentColor" stroke-width="1.5" />
+        </symbol>
+        <symbol id="expand" viewBox="0 0 24 24">
+            <path d="M3 3h18v18H3z M9 15l8-8 M11 7h6v6" fill="none" stroke="currentColor" stroke-width="1.3" />
+        </symbol>
+    </svg>
+
+    <!-- ================= SITE TOP ================= -->
+    <div class="site-top" id="siteTop">
+
+        <!-- BLACK BAR: hover to open the panel downwards -->
+        <div class="promo-wrap">
+            <div class="bar-black">FREE STANDARD SHIPPING WITH ADICLUB <svg class="chev">
+                    <use href="#chev" />
+                </svg></div>
+            <div class="panel">
+                <div class="panel-inner">
+                    <button class="panel-close" aria-label="Close"><svg viewBox="0 0 24 24" width="30" height="30">
+                            <path d="M3 3l18 18M21 3L3 21" stroke="#000" stroke-width="1.2" />
+                        </svg></button>
+                    <h3>FREE STANDARD SHIPPING WITH ADICLUB</h3>
+                    <p>Sign up for adiClub to enjoy free standard shipping and earn points on every order.</p>
+                    <a href="#" class="u">JOIN ADICLUB FOR FREE</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="util"><a href="#">store finder</a><a href="#">help</a><a href="#">orders and returns</a><a
+                href="#">gift cards</a><a href="#">join adiClub</a></div>
+
+        <header class="hdr">
+            <a href="#" class="logo"><svg role="presentation" viewBox="100 100 50 32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Homepage</title>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M 150.07 131.439 L 131.925 100 L 122.206 105.606 L 137.112 131.439 L 150.07 131.439 Z M 132.781 131.439 L 120.797 110.692 L 111.078 116.298 L 119.823 131.439 L 132.781 131.439 Z M 
+109.718 121.401 L 115.509 131.439 L 102.551 131.439 L 100 127.007 L 109.718 121.401 Z" fill="black"></path>
+                </svg></a>
+            <input type="checkbox" id="burger"><label for="burger"
+                class="burger"><span></span><span></span><span></span></label>
+
+            <nav class="nav">
+                <ul>
+
+                    <!-- MEN -->
+                    <li><a href="#" class="b">MEN</a>
+                        <div class="mega">
+                            <div class="cols c6">
+                                <div>
+                                    <h4>NEW &amp; TRENDING</h4><a href="#">New Arrivals</a><a href="#">Best
+                                        Sellers</a><a href="#">Trending Now</a><a href="#">The Marathon Shop 🏃➡️ </a><a
+                                        href="#">Fall Shop 🍂 </a>
+
+                                    <img class="prime"
+                                        src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/bwp_adidas_content_slot_navigation_d_dfbf3d31ce.png"
+                                        alt="Prime">
+                                </div>
+                                <div>
+                                    <h4>SHOES</h4><a href="#">Sneakers</a><a href="#">Running Shoes</a><a
+                                        href="#">Walking Shoes</a><a href="#">Slides &amp; Sandals</a><a href="#">Low
+                                        Profile</a><a href="#">Soccer Cleats &amp; Shoes</a><a href="#">Basketball
+                                        Shoes</a><a href="#">Workout &amp; Gym</a><a href="#">Golf Shoes</a><a
+                                        href="#">Shoes Under $80</a>
+                                </div>
+                                <div>
+                                    <h4>CLOTHING</h4><a href="#">Shorts</a><a href="#">Pants</a><a href="#">Shirts &amp;
+                                        Tops</a><a href="#">Graphics</a><a href="#">Jerseys</a><a
+                                        href="#">Sweatpants</a><a href="#">Tracksuits</a><a href="#">Swimwear</a><a
+                                        href="#">Hoodies &amp; Sweatshirts</a><a href="#">Jackets &amp; Coats</a>
+                                </div>
+                                <div>
+                                    <h4>ACCESSORIES</h4><a href="#">Socks</a><a href="#">Hats &amp; Beanies</a><a
+                                        href="#">Bags &amp; Backpacks</a><a href="#">Underwear</a><a href="#">Soccer
+                                        Balls</a><a href="#">Water Bottles</a><a href="#">Sunglasses</a>
+                                    <h4 class="gap">SHOP BY COLOR 🎨 </h4>
+                                </div>
+                                <div>
+                                    <h4>SPORTS</h4><a href="#">Soccer</a><a href="#">Running</a><a
+                                        href="#">Football</a><a href="#">Golf</a><a href="#">Tennis</a><a
+                                        href="#">Baseball</a><a href="#">Basketball</a><a href="#">Workout &amp;
+                                        Gym</a><a href="#">Hiking</a><a href="#">Cycling</a><a href="#">Motorsport</a>
+                                </div>
+                                <div>
+                                    <h4>COLLECTIONS</h4><a href="#">Samba</a><a href="#">Spezial</a><a href="#">Stan
+                                        Smith</a><a href="#">Gazelle</a><a href="#">Superstar</a><a
+                                        href="#">Originals</a><a href="#">Premium Collaborations</a><a
+                                        href="#">Y-3</a><a href="#">adicolor Collection</a><a href="#">Firebird</a><a
+                                        href="#">TERREX</a>
+                                </div>
+                            </div>
+                            <div class="foot c6"><a href="#">Sale</a><a href="#">All Men's Shoes</a><a href="#">All
+                                    Men's Clothing</a><a href="#">All Men's Accessories</a><a href="#">All Men's
+                                    Sports</a><a href="#">All Men's</a></div>
+                        </div>
+                    </li>
+
+                    <!-- WOMEN -->
+                    <li><a href="#" class="b">WOMEN</a>
+                        <div class="mega">
+                            <div class="cols c6">
+                                <div>
+                                    <h4>NEW &amp; TRENDING</h4><a href="#">New Arrivals</a><a href="#">Best
+                                        Sellers</a><a href="#">Trending Now</a><a href="#">The Marathon Shop 🏃➡️ </a><a
+                                        href="#">Fall Shop 🍂 </a><a href="#">Balletcore 🩰 </a><img class="prime"
+                                        src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/bwp_adidas_content_slot_navigation_d_dfbf3d31ce.png"
+                                        alt="Prime">
+                                </div>
+                                <div>
+                                    <h4>SHOES</h4><a href="#">Sneakers</a><a href="#">Mary Janes &amp; Flats</a><a
+                                        href="#">Running Shoes</a><a href="#">Walking Shoes</a><a href="#">Workout &amp;
+                                        Gym</a><a href="#">Slides &amp; Sandals</a><a href="#">Platform Shoes</a><a
+                                        href="#">Low Profile</a><a href="#">Soccer Cleats &amp; Shoes</a><a
+                                        href="#">Golf Shoes</a><a href="#">Basketball Shoes</a><a href="#">Shoes Under
+                                        $80</a>
+                                </div>
+                                <div>
+                                    <h4>CLOTHING</h4><a href="#">Pants</a><a href="#">Shorts</a><a href="#">Shirts &amp;
+                                        Tops</a><a href="#">Jerseys</a><a href="#">Graphics</a><a href="#">Skirts &amp;
+                                        Dresses</a><a href="#">Tracksuits</a><a href="#">Tights &amp; Leggings</a><a
+                                        href="#">Plus Size</a><a href="#">Sports Bras</a><a href="#">Swimwear</a><a
+                                        href="#">Hoodies &amp; Sweatshirts</a><a href="#">Jackets &amp; Coats</a>
+                                </div>
+                                <div>
+                                    <h4>ACCESSORIES</h4><a href="#">Bags &amp; Backpacks</a><a href="#">Socks</a><a
+                                        href="#">Hats &amp; Beanies</a><a href="#">Water Bottles</a><a href="#">Soccer
+                                        Balls</a><a href="#">Sunglasses</a>
+                                    <h4 class="gap">SHOP BY COLOR </h4>
+                                </div>
+                                <div>
+                                    <h4>SPORTS</h4><a href="#">Golf</a><a href="#">Running</a><a href="#">Tennis</a><a
+                                        href="#">Soccer</a><a href="#">Workout &amp; Gym</a><a href="#">Yoga</a><a
+                                        href="#">Volleyball</a><a href="#">Hiking</a><a href="#">Basketball</a><a
+                                        href="#">Cycling</a><a href="#">Softball</a><a href="#">Motorsport</a>
+                                </div>
+                                <div>
+                                    <h4>COLLECTIONS</h4><a href="#">Samba</a><a href="#">Samba Jane</a><a
+                                        href="#">Spezial</a><a href="#">Stan Smith</a><a href="#">Gazelle</a><a
+                                        href="#">Superstar</a><a href="#">Taekwondo</a><a href="#">Originals</a><a
+                                        href="#">adidas by Stella McCartney</a><a href="#">Premium Collaborations</a><a
+                                        href="#">Y-3</a><a href="#">adicolor Collection</a><a href="#">Firebird</a><a
+                                        href="#">TERREX</a>
+                                </div>
+                            </div>
+                            <div class="foot c6"><a href="#">Sale</a><a href="#">All Women's Shoes</a><a href="#">All
+                                    Women's Clothing</a><a href="#">All Women's Accessories</a><a href="#">All Women's
+                                    Sports</a><a href="#">All Women's</a></div>
+                        </div>
+                    </li>
+
+                    <!-- KIDS -->
+                    <li><a href="#" class="b">KIDS</a>
+                        <div class="mega">
+                            <div class="cols c6">
+                                <div>
+                                    <h4>NEW &amp; TRENDING</h4><a href="#">New Arrivals</a><a href="#">Best
+                                        Sellers</a><a href="#">Trending Now</a><a href="#">Fall Shop 🍂 </a><a
+                                        href="#">Disney</a><a href="#">adidas | Pokémon</a><a href="#">Disney
+                                        Princess</a><a href="#">Care Bears</a><a href="#">Spider-Man</a><a
+                                        href="#">Liberty London</a><a href="#">Minecraft</a><img class="prime"
+                                        src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/bwp_adidas_content_slot_navigation_d_dfbf3d31ce.png"
+                                        alt="Prime">
+                                </div>
+                                <div>
+                                    <h4>BOYS SHOES</h4><a href="#">Sneakers</a><a href="#">Soccer Cleats &amp;
+                                        Shoes</a><a href="#">Slides &amp; Sandals</a><a href="#">Slip-On &amp;
+                                        Straps</a><a href="#">Shoes $60 &amp; Under</a>
+                                    <h4 class="gap">BOYS CLOTHING</h4><a href="#">Shorts</a><a href="#">Pants</a><a
+                                        href="#">Shirts &amp; Tops</a><a href="#">Graphics</a><a href="#">Jerseys</a><a
+                                        href="#">Matching Sets</a><a href="#">Tracksuits</a><a href="#">Hoodies &amp;
+                                        Sweatshirts</a><a href="#">Jackets &amp; Coats</a>
+                                </div>
+                                <div>
+                                    <h4>GIRLS SHOES</h4><a href="#">Sneakers</a><a href="#">Soccer Cleats &amp;
+                                        Shoes</a><a href="#">Slides &amp; Sandals</a><a href="#">Slip-On &amp;
+                                        Straps</a><a href="#">Shoes $60 &amp; Under</a>
+                                    <h4 class="gap">GIRLS CLOTHING</h4><a href="#">Shorts</a><a href="#">Pants</a><a
+                                        href="#">Skirts &amp; Dresses</a><a href="#">Shirts &amp; Tops</a><a
+                                        href="#">Graphics</a><a href="#">Jerseys</a><a href="#">Matching Sets</a><a
+                                        href="#">Tracksuits</a><a href="#">Hoodies &amp; Sweatshirts</a><a
+                                        href="#">Jackets &amp; Coats</a>
+                                </div>
+                                <div>
+                                    <h4>SHOP BY AGE</h4><a href="#">Youth &amp; Teens (8-16 years)</a><a
+                                        href="#">Children (4-8 years)</a><a href="#">Babies &amp; Toddlers (0-4
+                                        years)</a>
+                                    <h4 class="gap">BABIES &amp; TODDLERS</h4><a href="#">Shoes (1K - 10K)</a><a
+                                        href="#">Clothing (0M - 4T)</a>
+                                </div>
+                                <div>
+                                    <h4>ACCESSORIES</h4><a href="#">Backpacks</a><a href="#">Socks</a><a href="#">Hats
+                                        &amp; Beanies</a><a href="#">Water Bottles</a><a href="#">Lunch bags</a><a
+                                        href="#">Soccer Balls</a>
+                                    <h4 class="gap">SHOP BY COLOR 🎨 </h4>
+                                </div>
+                                <div>
+                                    <h4>SPORTS</h4><a href="#">Soccer</a><a href="#">Basketball</a><a
+                                        href="#">Running</a><a href="#">Football</a><a href="#">Baseball</a><a
+                                        href="#">Golf</a><a href="#">Hiking</a>
+                                </div>
+                            </div>
+                            <div class="foot c6"><a href="#">All Kids Collaborations</a><a href="#">All Boys</a><a
+                                    href="#">All Girls</a><a href="#">All Kids</a><a href="#">All Kids Accessories</a><a
+                                    href="#">All Kids Sports</a></div>
+                        </div>
+                    </li>
+
+                    <!-- SALE -->
+                    <li><a href="#">SALE</a>
+                        <div class="mega">
+                            <div class="cols c5">
+                                <div>
+                                    <h4>FEATURED SALE</h4><a href="#">Men's New to Sale</a><a href="#">Women's New to
+                                        Sale</a><a href="#">Kids New to Sale</a><a href="#">Soccer Jerseys on Sale</a>
+                                </div>
+                                <div>
+                                    <h4>MEN</h4><a href="#">Shoes</a><a href="#">Sneakers</a><a href="#">Running
+                                        Shoes</a><a href="#">Basketball Shoes</a><a href="#">Clothing</a><a
+                                        href="#">Shorts</a><a href="#">Hoodies &amp; Sweatshirts</a><a
+                                        href="#">Shirts</a><a href="#">Accessories</a>
+                                </div>
+                                <div>
+                                    <h4>WOMEN</h4><a href="#">Shoes</a><a href="#">Sneakers</a><a href="#">Running
+                                        Shoes</a><a href="#">Clothing</a><a href="#">Leggings</a><a
+                                        href="#">Jackets</a><a href="#">Shirts</a><a href="#">Tracksuits</a><a
+                                        href="#">Accessories</a>
+                                </div>
+                                <div>
+                                    <h4>KIDS</h4><a href="#">All Girls</a><a href="#">Girls Shoes</a><a href="#">Girls
+                                        Clothing</a><a href="#" class="sp">All Boys</a><a href="#">Boys Shoes</a><a
+                                        href="#">Boys Clothing</a><a href="#" class="sp">Infant &amp; Toddler
+                                        Shoes</a><a href="#">Accessories</a>
+                                </div>
+                                <div>
+                                    <h4>BY SPORT</h4><a href="#">Golf</a><a href="#">Soccer</a><a
+                                        href="#">Basketball</a><a href="#">Baseball</a><a href="#">Football</a><a
+                                        href="#" class="sp">Running</a><a href="#">Workout</a><a href="#">Outdoor</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- GIFTS -->
+                    <li><a href="#">GIFTS 🎁</a>
+                        <div class="mega">
+                            <div class="cols c5">
+                                <div>
+                                    <h4>FEATURED GIFTS</h4><a href="#">Must-have Sneakers</a><a href="#">Winter
+                                        Essentials</a><a href="#">Cozy Fleece</a><a href="#">Soccer Fans</a><a
+                                        href="#">Gifts for Pets 🐾 </a>
+                                    <h4 class="gap">GIFTS BY PRICE</h4><a href="#">Under $25</a><a href="#">Under
+                                        $50</a><a href="#">Under $100</a>
+                                </div>
+                                <div>
+                                    <h4>MEN</h4><a href="#">Gifts for Men</a><a href="#">Shoes</a><a
+                                        href="#">Clothing</a><a href="#">Accessories</a><a href="#" class="sp">Shoes
+                                        Under $80</a>
+                                </div>
+                                <div>
+                                    <h4>WOMEN</h4><a href="#">Gifts for Women</a><a href="#">Shoes</a><a
+                                        href="#">Clothing</a><a href="#">Accessories</a><a href="#" class="sp">Shoes
+                                        Under $80</a>
+                                </div>
+                                <div>
+                                    <h4>KIDS</h4><a href="#">Youth &amp; Teens (8 - 16 Years)</a><a href="#">Children (4
+                                        - 8 Years)</a><a href="#">Babies &amp; Toddlers (0 - 4 Years)</a><a
+                                        href="#">Accessories</a><a href="#" class="sp">Shoes Under $60</a>
+                                </div>
+                                <div>
+                                    <h4>SPORT GIFTS</h4><a href="#">Golf</a><a href="#">Soccer</a><a
+                                        href="#">Running</a><a href="#">Basketball</a><a href="#">Workout &amp; Gym</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- SPORTS -->
+                    <li><a href="#">SPORTS</a>
+                        <div class="mega">
+                            <div class="cols c7">
+                                <div>
+                                    <h4>SOCCER</h4><a href="#">Cleats &amp; Shoes</a><a href="#">Jerseys</a><a
+                                        href="#">Balls &amp; Accessories</a><a href="#" class="sp">National Teams</a><a
+                                        href="#">Club Teams</a><a href="#">MLS</a>
+                                </div>
+                                <div>
+                                    <h4>RUNNING</h4><a href="#">Shoes</a><a href="#">Clothing</a><a
+                                        href="#">Accessories</a><a href="#" class="sp">Marathon</a><a
+                                        href="#">Everyday</a><a href="#">Recovery</a><a href="#">Trail</a><a
+                                        href="#">Road</a><a href="#" class="sp">Adizero</a><a href="#">Hyperboost</a><a
+                                        href="#">Supernova</a>
+                                </div>
+                                <div>
+                                    <h4>WORKOUT &amp; GYM</h4><a href="#">Shoes</a><a href="#">Clothing</a><a
+                                        href="#">Accessories</a><a href="#" class="sp">Hybrid Training</a><a
+                                        href="#">Yoga &amp; Pilates</a><a href="#">Weightlifting</a><a
+                                        href="#">HIIT</a><a href="#" class="sp">Originals Sport</a><a
+                                        href="#">Dropset</a><a href="#">Optime</a><a href="#">D4T</a>
+                                </div>
+                                <div>
+                                    <h4>COLLEGE SPORTS</h4><a href="#">Shoes</a><a href="#">Clothing</a><a href="#">Shop
+                                        by School</a><a href="#" class="sp">College Football</a><a href="#">College
+                                        Basketball</a><a href="#">College Baseball &amp; Softball</a>
+                                </div>
+                                <div>
+                                    <h4>BASKETBALL</h4><a href="#">Shoes</a><a href="#">Clothing</a><a
+                                        href="#">Accessories</a><a href="#" class="sp">Player Collections</a>
+                                </div>
+                                <div>
+                                    <h4>GOLF</h4><a href="#">Shoes</a><a href="#">Clothing</a><a
+                                        href="#">Accessories</a><a href="#" class="sp">Ultimate365</a><a
+                                        href="#">Originals Golf</a><a href="#">Beyond the Course</a>
+                                </div>
+                                <div>
+                                    <h4>OTHER SPORTS</h4><a href="#">Football</a><a href="#">Baseball</a><a
+                                        href="#">Climbing</a><a href="#">Cycling</a><a href="#">Hiking</a><a
+                                        href="#">Motorsport</a><a href="#">Outdoor</a><a href="#">Pickleball</a><a
+                                        href="#">Skateboarding</a><a href="#">Softball</a><a href="#">Swimming</a><a
+                                        href="#">Tennis</a><a href="#">Volleyball</a>
+                                </div>
+                            </div>
+                            <div class="foot c7"><a href="#">All Soccer</a><a href="#">All Running</a><a href="#">All
+                                    Workout &amp; Gym</a><a href="#">All College Sports</a><a href="#">All
+                                    Basketball</a><a href="#">All Golf</a></div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="tools">
+                <form class="search" onsubmit="return false"><input type="text" placeholder="Search"><svg
+                        viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#000" stroke-width="1.4">
+                        <circle cx="10" cy="10" r="7" />
+                        <path d="M15 15l7 7" />
+                    </svg></form>
+                <a href="#" class="user" aria-label="Account"><svg viewBox="0 0 32 32" width="34" height="34"
+                        fill="none" stroke="#000" stroke-width="1.6">
+                        <circle cx="16" cy="10" r="5.5" />
+                        <path d="M4 30c1-7 6-9 12-9s11 2 12 9" />
+                    </svg><b class="badge">1</b></a>
+                <a href="#" aria-label="Wishlist"><svg viewBox="0 0 32 32" width="34" height="34" fill="none"
+                        stroke="#000" stroke-width="1.6">
+                        <path d="M16 28S3 20 3 11a6.500 6.500 0 0 1 13-2 6.500 6.500 0 0 1 13 2c0 9-13 17-13 17z" />
+                    </svg></a>
+                <a href="#" aria-label="Bag"><svg viewBox="0 0 32 32" width="34" height="34" fill="none" stroke="#000"
+                        stroke-width="1.6">
+                        <path d="M6 8h20v22H6z M11 8V4h10v4" />
+                    </svg></a>
+            </div>
+        </header>
+
+        <!-- GREY SALE STRIP -->
+        <a href="#" class="bar-grey"><span>Save up to 50% on tons of styles.</span><svg class="arr">
+                <use href="#arrow" />
+            </svg></a>
+    </div>
+
+    <main>
+        <!-- ============ SECTION 1: HERO ============ -->
+        <section class="hero">
+            <div class="hero-col">
+                <!-- <h2 class="big">SAMBA</h2> -->
+                <img class="the-original-samba"
+                    src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_1920,w_1920/og_ss26_dtc_onsite_KJ_7448_samba_single_bh_03_d_1f37dbb5e6.jpg"
+                    alt="A triptych featuring close-ups and a full-body shot of a person wearing black and white cow-print Samba sneakers and a cream jacket against a dark urban background."
+                    loading="eager" fetchpriority="high">
+                <div class="hero-copy">
+                    <h3>STEP OUT IN SAMBA</h3> <br>
+                    <p>Explore Samba in a new spotted colorway made to catch</p> <br>
+                    <p>eyes</p>
+                    <div class="btns"><a href="#">SHOP FOOTWEAR <svg class="arr">
+                                <use href="#arrow" />
+                            </svg></a><a href="#">SHOP NEW STYLES <svg class="arr">
+                                <use href="#arrow" />
+                            </svg></a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 2: LATEST DROPS ============ -->
+        <section class="sec">
+            <h2 class="title">EXPLORE THE LATEST EDIT</h2>
+            <div class="cards">
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>CITY RUNNING EDIT</h3>
+                    <p>Built for fast miles and focused training. Discover responsive footwear for your next run.</p>
+                    <span class="u">SHOP NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>ORIGINALS MUSIC EDIT</h3>
+                    <p>Graphic energy meets everyday streetwear in a collection made for music lovers and Originals
+                        fans.</p><span class="u">SHOP NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>HERITAGE REIMAGINED</h3>
+                    <p>Classic sports-inspired silhouettes return with a fresh, modern attitude for everyday wear.</p>
+                    <span class="u">SHOP NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>ADIDAS | POP CULTURE</h3>
+                    <p>Discover playful footwear and apparel inspired by the worlds, characters, and energy you love.
+                    </p><span class="u">SHOP NOW</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 3: COLLEGE FAN SHOP ============ -->
+        <section class="sec">
+            <h2 class="title">COLLEGE FAN SHOP</h2>
+            <div class="car">
+                <button class="nxt prev" aria-label="Previous"><svg>
+                        <use href="#arrow" transform="scale(-1,1) translate(-40,0)" />
+                    </svg></button>
+                <div class="track sq">
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_tennessee_onsite_400x400_64c016e686.png"
+                            alt="" loading="eager" fetchpriority="high"><span>TENNESSEE</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_penn_state_onsite_400x400_4a86b3563d.png"
+                            alt="" loading="eager" fetchpriority="high"><span>PENN STATE</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_texas_am_onsite_400x400_d_456a23856b.png"
+                            alt="" loading="eager" fetchpriority="high"><span>TEXAS A&M</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/fw26_ncaa_team_finder_logos_mississippi_state_400x400_d_0cb8e3f9e2.png"
+                            alt="" loading="eager" fetchpriority="high"><span>MISSISSIPPI STATE</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_louisville_onsite_400x400_d_3ecc881e21.png"
+                            alt="" loading="eager" fetchpriority="high"><span>LOUISVILLE</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_nebraska_onsite_400x400_d_d6a9e05649.png"
+                            alt="" loading="eager" fetchpriority="high"><span>NEBRASKA</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_indiana_onsite_400x400_d_fa0154d6fe.png"
+                            alt="" loading="eager" fetchpriority="high"><span>INDIANA</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_miami_onsite_400x400_d_90b34e5500.png"
+                            alt="" loading="eager" fetchpriority="high"><span>MIAMI</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_washington_onsite_400x400_d_d87d7f03a7.png"
+                            alt="" loading="eager" fetchpriority="high"><span>WASHINGTON</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_kansas_onsite_400x400_d_22def7d8cf.png"
+                            alt="" loading="eager" fetchpriority="high"><span>KANSAS</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_st_jones_onsite_400x400_d_2f87cfa193.png"
+                            alt="" loading="eager" fetchpriority="high"><span>ST. JOHN'S</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_texas_tech_onsite_400x400_d_a367360652.png"
+                            alt="" loading="eager" fetchpriority="high"><span>TEXAS TECH</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_arizona_onsite_400x400_d_712f70af04.png"
+                            alt="" loading="eager" fetchpriority="high"><span>ARIZONA STATE</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_north_carolina_onsite_400x400_d_603255017c.png"
+                            alt="" loading="eager" fetchpriority="high"><span>NORTH CAROLINA</span></a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/ss26_ncaa_team_finder_logos_north_carolina_onsite_400x400_d_603255017c.png"
+                            alt="" loading="eager" fetchpriority="high"><span>NC STATE</span></a>
+                </div>
+                <button class="nxt next" aria-label="Next"><svg>
+                        <use href="#arrow" />
+                    </svg></button>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 4: GIFTING, REIMAGINED ============ -->
+        <section class="sec">
+            <h2 class="title">GIFTING, REIMAGINED</h2>
+            <div class="cards">
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>START WITH THE ICONS</h3>
+                    <p>Find timeless footwear, versatile apparel, and everyday favourites for every kind of gift list.
+                    </p><span class="u">SHOP
+                        NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>GREAT GIFTS, SMARTLY PRICED</h3>
+                    <p>Explore easy-to-gift footwear and essentials at approachable prices.</p><span class="u">SHOP
+                        NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>THE ORIGINALS EDIT</h3>
+                    <p>Discover unmistakable silhouettes and modern classics built for personal style.</p><span
+                        class="u">SHOP NOW</span>
+                </a>
+                <a href="#" class="card"><img src="" alt="">
+                    <h3>EVERYDAY COMFORT</h3>
+                    <p>Soft layers, relaxed fits, and comfortable footwear make gifting feel effortless.</p><span
+                        class="u">SHOP
+                        NOW</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 5: SHOP BY LOOK ============ -->
+        <section class="sec">
+            <h2 class="title">HOLIDAY GIFT GUIDE</h2>
+            <div class="car">
+                <div class="track tall">
+                    <a href="#" class="tile"><img srcset="https://z2photorankmedia-a.akamaihd.net/media/n/e/d/nedrde5/mobile.jpg 480w, https://z3photorankmedia-a.akamaihd.net/media/n/e/d/nedrde5/normal.jpg 960w, https://z3photora
+nkmedia-a.akamaihd.net/media/n/e/d/nedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://z3photorankmedia-a.akamaihd.net/media/n/e/d/nedrde5/original.jpg" alt=""><em>7
+                            LOOKS <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                    <a href="#" class="tile"><img srcset="https://z2photorankmedia-a.akamaihd.net/media/h/e/d/hedrde5/mobile.jpg 480w, https://z1photorankmedia-a.akamaihd.net/media/h/e/d/hedrde5/normal.jpg 960w, https://z2photora
+nkmedia-a.akamaihd.net/media/h/e/d/hedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://z2photorankmedia-a.akamaihd.net/media/h/e/d/hedrde5/original.jpg" alt=""><em>5
+                            LOOKS <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                    <a href="#" class="tile"><img srcset="https://z3photorankmedia-a.akamaihd.net/media/e/e/d/eedrde5/mobile.jpg 480w, https://photorankmedia-a.akamaihd.net/media/e/e/d/eedrde5/normal.jpg 960w, https://z1photorank
+media-a.akamaihd.net/media/e/e/d/eedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://z1photorankmedia-a.akamaihd.net/media/e/e/d/eedrde5/original.jpg" alt=""><em>3
+                            LOOKS <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                    <a href="#" class="tile"><img srcset="https://z3photorankmedia-a.akamaihd.net/media/k/e/d/kedrde5/mobile.jpg 480w, https://z2photorankmedia-a.akamaihd.net/media/k/e/d/kedrde5/normal.jpg 960w, https://z1photora
+nkmedia-a.akamaihd.net/media/k/e/d/kedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://z1photorankmedia-a.akamaihd.net/media/k/e/d/kedrde5/original.jpg" alt=""><em>1
+                            LOOK <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                    <a href="#" class="tile"><img srcset="https://photorankmedia-a.akamaihd.net/media/g/e/d/gedrde5/mobile.jpg 480w, https://z2photorankmedia-a.akamaihd.net/media/g/e/d/gedrde5/normal.jpg 960w, https://photorankme
+dia-a.akamaihd.net/media/g/e/d/gedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://photorankmedia-a.akamaihd.net/media/g/e/d/gedrde5/original.jpg" alt=""><em>2
+                            LOOKS <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                    <a href="#" class="tile"><img srcset="https://photorankmedia-a.akamaihd.net/media/j/e/d/jedrde5/mobile.jpg 480w, https://z2photorankmedia-a.akamaihd.net/media/j/e/d/jedrde5/normal.jpg 960w, https://z3photorank
+media-a.akamaihd.net/media/j/e/d/jedrde5/original.jpg 1280w"
+                            sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1280px) 1280px"
+                            class="_image_1b8qf_73"
+                            src="https://z3photorankmedia-a.akamaihd.net/media/j/e/d/jedrde5/original.jpg" alt=""><em>3
+                            LOOKS <svg>
+                                <use href="#expand" />
+                            </svg></em></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 6: STYLE & PERFORMANCE GUIDES ============ -->
+        <section class="sec">
+            <h2 class="title t-sans">STYLE & PERFORMANCE GUIDES</h2>
+            <div class="car">
+                <button class="nxt prev" aria-label="Previous"><svg>
+                        <use href="#arrow" transform="scale(-1,1) translate(-40,0)" />
+                    </svg></button>
+                <div class="track res">
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/global_originals_sport_fw26_training_fw26_launch_blog_post_bnr_d_1_514e1ec4a6.jpg"
+                            alt="A woman sits on a weight bench in a gym with a barbell in front of her, while large windows and brick walls form the background."
+                            loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>ORIGINALS SPORT: STYLE IN MOTION</h3>
+                            <p>See how athletes bring versatile training-inspired pieces from the gym into everyday
+                                life.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_ss26_howtostylesuperstar_bnr_d_1_1a1b166208.jpg"
+                            alt="The image depicts a display of various fashion and lifestyle products, including clothing, shoes, and audio equipment, arranged in a visually striking manner."
+                            loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>HOW TO STYLE SUPERSTARS</h3>
+                            <p>Build fresh everyday looks around the iconic Superstar with simple styling ideas.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_fw25_marathon_training_bnr_d_1_5c7644b18e.jpg"
+                            alt="" loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>YOUR GUIDE TO MARATHON TRAINING</h3>
+                            <p>Build confidence with practical guidance on training, pacing, recovery, and preparation.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_fw25_sambasizeguide_bnr_d_3_4126acc079.jpg"
+                            alt="Three styles of adidas Samba with gray gradient background." loading="lazy"
+                            fetchpriority="auto">
+                        <div class="body">
+                            <h3>FIND YOUR SAMBA FIT</h3>
+                            <p>Use fit guidance to help you choose the right Samba size for your everyday rotation.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_ss26_What_To_Wear_To_The_Gym_Single_bnr_d_1_f513be4f7d.jpg"
+                            alt="A person wearing a white tank top and black shorts stands with their arms raised against a wooden wall background."
+                            loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>WHAT TO WEAR TO THE GYM</h3>
+                            <p>From warm-ups to strength sessions, choose comfortable pieces that support every workout.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_ss25_howtostylesamba_bnr_d_2_a7adc4aa43.jpg"
+                            alt="" loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>5 WAYS TO STYLE THE SAMBA</h3>
+                            <p>Mix classic proportions with modern pieces for five easy looks built around the Samba.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_ss26_basketball_shoes_guide_bnr_d_6e97a48cd7.jpg"
+                            alt="Vibrant, abstract sneaker designs with geometric shapes and patterns in various colors, set against a dark background."
+                            loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>HOW TO CHOOSE A BASKETBALL SHOE</h3>
+                            <p>Learn what to consider when choosing fit, cushioning, traction, and durability for the
+                                court.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="tile"><img
+                            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/edi_ss26_a_beginners_guide_to_running_bnr_d_2dc406fe19.jpg"
+                            alt="Two individuals, a man and a woman, are jogging together on a dirt path surrounded by lush greenery and vegetation."
+                            loading="lazy" fetchpriority="auto">
+                        <div class="body">
+                            <h3>A BEGINNER'S GUIDE TO RUNNING</h3>
+                            <p>Start comfortably with simple advice on pacing, consistency, footwear, and building your
+                                miles.</p>
+                        </div>
+                    </a>
+                </div>
+                <button class="nxt next" aria-label="Next"><svg>
+                        <use href="#arrow" />
+                    </svg></button>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 7: 4 LINK LISTS ============ -->
+        <section class="sec links4">
+            <div>
+                <h4>EVERYDAY FOOTWEAR</h4><a href="#">LOW-PROFILE SHOES</a><a href="#">SLIDES &amp; MULES</a><a
+                    href="#">BOOTS & OUTDOOR SHOES</a><a href="#">SUEDE STYLES</a><a href="#">EARTH-TONE SHOES</a>
+            </div>
+            <div>
+                <h4>EASY GIFT PICKS</h4><a href="#">COMFORT LAYERS</a><a href="#">PET ESSENTIALS</a><a href="#">TOTE
+                    BAGS</a><a href="#">TRACKSUITS</a><a href="#">SOCKS &amp; BASICS</a>
+            </div>
+            <div>
+                <h4>COLD-WEATHER ACCESSORIES</h4><a href="#">SCARVES</a><a href="#">BEANIES</a><a href="#">SHOULDER
+                    BAGS</a><a href="#">HATS</a><a href="#">BELTS</a>
+            </div>
+            <div>
+                <h4>COOL-WEATHER LAYERS</h4><a href="#">KNITWEAR</a><a href="#">SWEATERS</a><a href="#">WINTER
+                    JACKETS</a><a href="#">DENIM</a><a href="#">HOODIES &amp; SWEATSHIRTS</a>
+            </div>
+        </section>
+
+        <!-- ============ SECTION 8: BLACK TEXT BLOCK ============ -->
+        <section class="seo">
+            <section class="seo">
+                <h2>SNEAKERS, ACTIVEWEAR AND SPORTING GOODS</h2>
+                <p>Calling all athletes. Gear up for your favorite sport with adidas sneakers and activewear for men and
+                    women. From running to soccer and the gym to the trail, performance workout clothes and shoes keep
+                    you feeling your best. Find sport-specific sneakers to support your passion, and shop versatile
+                    activewear and accessories that support everyday comfort. adidas has you covered with world-class
+                    performance, quality and unmatched comfort to fit your style. Explore the full range of adidas gear
+                    today.</p>
+                <p>Founded on performance, adidas sporting goods equipment supports athletes at all levels. Men, women
+                    and kids will find their best form in sneakers and activewear made to perform under pressure. adidas
+                    sportswear breathes, manages sweat and helps support working muscles. Explore sport-specific clothes
+                    and gear for basketball, soccer, or the yoga studio. Runners will find a range of sneakers for
+                    training, racing and trail runs. Gym users will find tops, tees and tanks that support focused
+                    efforts with adidas CLIMACOOL to feel cool and dry. Explore warm-ups featuring four-way stretch to
+                    support mobility. Find a new outdoor jacket that helps protect against wind and rain. Lace up new
+                    athletic shoes that energize every step with adidas Boost cushioning. With sizes and styles for all
+                    ages, we have sporting goods for the whole family. Dedicated training demands dedicated workout
+                    clothes. Experience the latest performance fabrics and sneaker technologies to get the most out of
+                    your next training session.</p>
+                <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M40.056 31.8178L25.5403 6.66699L17.7654 11.152L29.6895 31.8178H40.056ZM26.2251 31.8178L16.6374 15.2206L8.86255 19.7056L15.8586 31.8178H26.2251ZM7.77487 23.7878L12.4076 31.8178H2.04107L0 28.2728L7.77487 23.7878Z"
+                        fill="white"></path>
+                </svg>
+            </section>
+
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <!-- div 1: green sign-up bar -->
+        <div class="join">
+            <h2>JOIN OUR ADICLUB &amp; GET 15% OFF</h2>
+            <a href="#" class="join-btn">SIGN UP FOR FREE <svg class="arr">
+                    <use href="#arrow" />
+                </svg></a>
+        </div>
+
+        <!-- div 2: six link columns -->
+        <div class="f-cols">
+            <div>
+                <h4>PRODUCTS</h4><a href="#">Shoes</a><a href="#">Clothing</a><a href="#">Accessories</a><a
+                    href="#">Gift Cards</a><a href="#" class="sp">New Arrivals</a><a href="#">Best Sellers</a><a
+                    href="#">Release Dates</a><a href="#">SALE</a>
+            </div>
+            <div>
+                <h4>Sports</h4><a href="#">Soccer</a><a href="#">Running</a><a href="#">Basketball</a><a
+                    href="#">Football</a><a href="#">Outdoor</a><a href="#">Golf</a><a href="#">Baseball</a><a
+                    href="#">Tennis</a><a href="#">Skateboarding</a><a href="#">Workout</a>
+            </div>
+            <div>
+                <h4>Collections</h4><a href="#">adicolor</a><a href="#">Ultraboost</a><a href="#">Forum</a><a
+                    href="#">Superstar</a><a href="#">Running Shoes</a><a href="#">adilette</a><a href="#">Stan
+                    Smith</a><a href="#">adizero</a><a href="#">Tiro</a><a href="#">Cloudfoam Pure</a>
+            </div>
+            <div>
+                <h4>SUPPORT</h4><a href="#">Help</a><a href="#">Returns &amp; Exchanges</a><a href="#">Shipping</a><a
+                    href="#">Order Tracker</a><a href="#">Store Locator</a><a href="#">Size Charts</a><a href="#">Gift
+                    Card Balance</a><a href="#">How to Clean Shoes</a><a href="#">Bra Fit Guide</a><a href="#">Breathing
+                    for Running</a><a href="#">Promotions</a><a href="#">Sitemap</a>
+            </div>
+            <div>
+                <h4>COMPANY INFO</h4><a href="#">About Us</a><a href="#">Student Discount</a><a href="#">Military &amp;
+                    Healthcare Discount</a><a href="#">adidas Stories</a><a href="#">adidas Apps</a><a
+                    href="#">Impact</a><a href="#">People</a><a href="#">Planet</a><a href="#">adiClub</a><a
+                    href="#">Affiliates</a><a href="#">Press</a><a href="#">Careers</a><a href="#">California
+                    Transparency in Supply Chains Act</a><a href="#">Responsible Disclosure</a><a href="#">Transparency
+                    in Coverage</a>
+            </div>
+
+            <div class="social">
+                <h4>FOLLOW US</h4>
+                <a href="#"><img src="" alt="Facebook"></a>
+                <a href="#"><img src="" alt="Instagram"></a>
+                <a href="#"><img src="" alt="X"></a>
+                <a href="#"><img src="" alt="Pinterest"></a>
+                <a href="#"><img src="" alt="TikTok"></a>
+                <a href="#"><img src="" alt="YouTube"></a>
+            </div>
+        </div>
+
+        <!-- div 3: legal bar -->
+        <div class="f-legal">
+            <div class="legal-links"><a href="#">Your Privacy Choices <span class="toggle"><svg viewBox="0 0 30 14"
+                            width="30" height="14">
+                            <path d="M4 7l3 3 5-6M20 3l6 8M26 3l-6 8" fill="none" stroke="#fff" stroke-width="1.6" />
+                        </svg></span></a><a href="#">Privacy Policy</a><a href="#">Terms and Conditions</a></div>
+            <p>© 2026 adidas America, Inc.</p>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
